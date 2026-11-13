@@ -1,0 +1,266 @@
+.about-section {
+  position: relative;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+.about-left-col {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.about-story-card {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+}
+
+.card-headline {
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.about-body-text {
+  font-size: 0.94rem;
+  line-height: 1.65;
+  color: var(--text-secondary);
+}
+
+.about-body-text strong {
+  color: #ffffff;
+}
+
+/* Career Objective Box */
+.career-objective-box {
+  display: flex;
+  gap: 0.95rem;
+  padding: 1.1rem;
+  border-radius: var(--radius-md);
+  background: rgba(56, 189, 248, 0.05);
+  border: 1px solid rgba(56, 189, 248, 0.15);
+  margin-top: 0.35rem;
+}
+
+.obj-icon-wrap {
+  width: 38px;
+  height: 38px;
+  border-radius: var(--radius-sm);
+  background: rgba(56, 189, 248, 0.12);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #38bdf8;
+  font-size: 1.15rem;
+  flex-shrink: 0;
+}
+
+.obj-title {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 0.2rem;
+}
+
+.obj-desc {
+  font-size: 0.85rem;
+  line-height: 1.55;
+  color: #cbd5e1;
+}
+
+/* Academic Synergy Box */
+.academic-synergy-box {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+  padding: 1.1rem;
+  border-radius: var(--radius-md);
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid var(--border-subtle);
+}
+
+.synergy-header {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  color: #818cf8;
+}
+
+.synergy-icon {
+  font-size: 1rem;
+}
+
+.synergy-header h4 {
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: #c7d2fe;
+}
+
+.synergy-items {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+
+.synergy-tag {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem 0.75rem;
+  border-radius: var(--radius-sm);
+  background: rgba(255, 255, 255, 0.02);
+  border-left: 2px solid #818cf8;
+}
+
+.synergy-bold {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.synergy-inst {
+  font-size: 0.75rem;
+  color: #94a3b8;
+}
+
+/* Strengths Card */
+.strengths-card {
+  padding: 1.6rem 2rem;
+}
+
+.strengths-title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+}
+
+.strengths-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem 1rem;
+}
+
+.strength-item {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  font-size: 0.88rem;
+  color: #cbd5e1;
+}
+
+.strength-icon {
+  color: var(--emerald-accent);
+  font-size: 1rem;
+  flex-shrink: 0;
+}
+
+/* Right Column: Pillars */
+.about-right-col {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.pillars-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.1rem;
+}
+
+.pillar-card {
+  padding: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.pillar-icon-box {
+  width: 40px;
+  height: 40px;
+  border-radius: var(--radius-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+}
+
+.p-icon-0 {
+  background: rgba(56, 189, 248, 0.1);
+  color: #38bdf8;
+}
+.p-icon-1 {
+  background: rgba(129, 140, 248, 0.1);
+  color: #818cf8;
+}
+.p-icon-2 {
+  background: rgba(16, 185, 129, 0.1);
+  color: #34d399;
+}
+.p-icon-3 {
+  background: rgba(245, 158, 11, 0.1);
+  color: #fbbf24;
+}
+
+.pillar-title {
+  font-size: 1.02rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.pillar-desc {
+  font-size: 0.85rem;
+  line-height: 1.55;
+  color: var(--text-secondary);
+}
+
+/* Highlight Callout */
+.highlight-callout {
+  padding: 1.6rem 2rem;
+  background: rgba(15, 23, 42, 0.7);
+  border: 1px solid var(--border-card);
+}
+
+.callout-accent-label {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--cyan-glow);
+  margin-bottom: 0.35rem;
+}
+
+.callout-heading {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 0.35rem;
+}
+
+.callout-p {
+  font-size: 0.88rem;
+  line-height: 1.55;
+  color: #94a3b8;
+}
+
+@media (max-width: 992px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .pillars-grid {
+    grid-template-columns: 1fr;
+  }
+  .strengths-grid {
+    grid-template-columns: 1fr;
+  }
+}
